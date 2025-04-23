@@ -69,15 +69,15 @@ def main():
             display_man(wrong_guesses)
             display_answer(answer)
             print("YOU WIN!")
-            is_running = False
-        elif wrong_guesses >= len(hangman_art) - 1:
-            display_man(wrong_guesses)
-            display_answer(answer)
-            print("YOU LOSE!")
-            is_running = False
+#             is_running = False
+#         elif wrong_guesses >= len(hangman_art) - 1:
+#             display_man(wrong_guesses)
+#             display_answer(answer)
+#             print("YOU LOSE!")
+#             is_running = False
             
-# This is a test change to trigger Jenkins
+# # This is a test change to trigger Jenkins
 
 # if __name__ == "__main__":
-# main()
+#     main()
     
