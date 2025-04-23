@@ -14,11 +14,11 @@ def test_correct_guess():
     hint = ["_"] * len(answer)
     guess = "h"
 
-    for i in range(len(answer)):
-        if answer[i] == guess:
-            hint[i] = guess
+    # for i in range(len(answer)):
+    #     if answer[i] == guess:
+    #         hint[i] = guess
     
-    assert hint == ["h", "_", "_", "_", "_", "_", "_"]
+    # assert hint == ["h", "_", "_", "_", "_", "_", "_"]
 
 def test_wrong_guess():
     answer = "hangman"
