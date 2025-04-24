@@ -10,5 +10,8 @@ COPY . .
 # Install dependencies
 RUN pip install -r requirements.txt
 
-# Command to run the game
+# Expose the port your app will run on
+EXPOSE 5000
+
+# Command to run your web app (assuming you're using Flask)
 CMD ["python", "hangman.py"]
